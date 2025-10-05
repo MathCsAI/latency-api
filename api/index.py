@@ -54,4 +54,4 @@ def get_latency_metrics(request: LatencyRequest):
             "breaches": breaches,
         }
 
-    return results
+    return {"regions": results}
